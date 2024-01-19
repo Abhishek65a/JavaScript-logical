@@ -1,5 +1,5 @@
 //third largest number
-
+// ========================================
 // const intArray=[2,8,4,7,9]
 // const largestValue=(arr)=>{
 //     firstLargestValue=Math.max(...arr)
@@ -13,8 +13,8 @@
 // }
 // console.log(largestValue(intArray));
 
-
 //second largest number
+// ==========================================
 // const intArray=[2,8,4,7,9]
 // const largestValue=(arr)=>{
 //     firstLargestValue=Math.max(...arr)
@@ -26,10 +26,10 @@
 // console.log(largestValue(intArray));
 
 //first largest number
-const intArray=[2,8,4,7,9]
-const largestValue=(arr)=>{
-    firstLargestValue=Math.max(...arr)
-  
-  return(firstLargestValue)
-}
+// ===========================
+const intArray = [2, 8, 4, 7, 9];
+const largestValue = (arr) => {
+  firstLargestValue = Math.max(...arr);
+  return firstLargestValue;
+};
 console.log(largestValue(intArray));
