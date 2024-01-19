@@ -6,6 +6,9 @@ const largestValue=(arr)=>{
     index=arr.indexOf(firstLargestValue)
     arr.splice(index,1)
     secondLargestValue=Math.max(...arr)
-    return(secondLargestValue)          
+    index=arr.indexOf(secondLargestValue)
+    arr.splice(index,1)
+    thirdLargestValue=Math.max(...arr)
+    return(thirdLargestValue)
 }
 console.log(largestValue(intArray));
