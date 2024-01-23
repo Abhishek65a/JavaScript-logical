@@ -9,7 +9,7 @@ function printPatter(rows)
         }
         for (let k = 1; k <= i; k++) 
         {
-            row += "*  "
+            row += "* "
         }
         console.log(row);
 
