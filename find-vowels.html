@@ -1,0 +1,18 @@
+// find the number of vowels in the String
+
+<script>
+
+let string=prompt('enter the string ')
+let vowels=['a','e','i','o','u']
+
+let countVowels=(str)=>{
+    var count=0;
+    for(let letter of str.toLowerCase()){
+    if(vowels.includes(letter)){
+        count ++ 
+       }
+    }
+    return count
+}
+console.log(countVowels(string));
+</script>
