@@ -1,0 +1,14 @@
+<script>
+    var string=prompt("enter the value")
+    string=string.toLocaleLowerCase()
+    var palindromeFind=(str)=>{
+        let reverseString=str.split("").reverse().join("")
+        if(reverseString===str){
+            return console.log(`${string} is Palindrome`);
+        }
+        else{
+            return console.log(`${string} is not a Palindrome`);
+        }
+    }
+    console.log(palindromeFind(string));
+</script>
