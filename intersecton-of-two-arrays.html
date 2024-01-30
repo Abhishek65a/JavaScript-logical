@@ -1,0 +1,15 @@
+
+
+<script>
+
+const arr1=[7,5,4,9,6,2,2,2,2]
+const arr2=[5,8,6,4,2,7]
+
+let intersectionArr=arr1.filter((ele)=>{
+    return arr2.includes(ele)
+})
+
+console.log([... new Set(intersectionArr)]);
+
+
+</script>
