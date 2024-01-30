@@ -8,8 +8,14 @@
 
 // ===================================================
 
-let names=["abhi","amogh","ankit","amruta","kartik"]
+// let names=["abhi","amogh","ankit","amruta","kartik"]
 
-const prefixedNames=names.map(names=>`name=${names}`)
+// const prefixedNames=names.map(names=>`name=${names}`)
 
-console.log(prefixedNames);
+// console.log(prefixedNames);
+
+
+let res=(function(input){
+    return input + 5;
+})(2)
+console.log(res);
