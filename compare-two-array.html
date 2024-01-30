@@ -1,0 +1,25 @@
+//compare two arrays are equal or not
+
+<script>
+
+const arr1=[1,5,8,4,9,6]
+const arr2=[6,8,9,4,5,1]
+
+const isArrSame=arr1.length==arr2.length &&
+
+arr1.every((curEle)=>{
+    if(arr2.indexOf(curEle)>-1){
+        return (curEle=[arr2.indexOf(curEle)])
+    }
+})
+
+console.log(isArrSame);
+
+
+
+
+
+
+
+
+</script>
