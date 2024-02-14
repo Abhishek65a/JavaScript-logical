@@ -1,0 +1,47 @@
+<script>
+
+    function task(){
+
+        //finding the length of the string
+
+        let a=prompt("enter the first word")
+        let b=prompt("enter second word")
+        let total=a.length + b.length
+        console.log(total);
+
+        //sorting as per ascii value
+
+        let sortedFirst=a.split('').sort().join()
+        // console.log(sortedFirst);
+        let sortedsecond=b.split('').sort().join()
+        // console.log(sortedsecond);
+
+        if(sortedFirst.charCodeAt(0) < sortedsecond.charCodeAt(0)){
+            console.log("Yes");
+        }
+        else{
+            console.log("No");
+        }
+
+
+        //converting first letter to uppercase of the each word
+
+        let firstChar=a.charAt(0).toUpperCase()
+        let secondChar=b.charAt(0).toUpperCase()
+        console.log(firstChar,secondChar);
+
+        let capFirst=firstChar.concat(a.slice(1))
+        console.log(capFirst);
+        let capSecond=secondChar.concat(b.slice(1))
+        console.log(capSecond);
+
+        console.log( ` ${capFirst}  ${capSecond} ` );
+
+
+    }
+    task()
+
+   
+
+
+</script>
