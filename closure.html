@@ -1,0 +1,12 @@
+<script>
+    function outer(){
+
+        let a=5;
+        function inner(){
+            return a;
+        }
+        return inner;
+    }
+   let get_inner_function=outer()
+    console.log(get_inner_function());
+</script>
